@@ -1,0 +1,17 @@
+/data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/install/strip.dir
+/data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/install/local.dir
+/data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/list_install_components.dir
+/data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/manpages.dir
+/data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/dist.dir
+/data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/install.dir
+/data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/extra/roxterm/build/src/CMakeFiles/install/strip.dir
+/data/data/com.termux/files/home/extra/roxterm/build/src/CMakeFiles/install/local.dir
+/data/data/com.termux/files/home/extra/roxterm/build/src/CMakeFiles/list_install_components.dir
+/data/data/com.termux/files/home/extra/roxterm/build/src/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/extra/roxterm/build/src/CMakeFiles/install.dir
+/data/data/com.termux/files/home/extra/roxterm/build/src/CMakeFiles/rtlib.dir
+/data/data/com.termux/files/home/extra/roxterm/build/src/CMakeFiles/roxterm.dir
+/data/data/com.termux/files/home/extra/roxterm/build/src/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/extra/roxterm/build/src/CMakeFiles/roxterm-config.dir

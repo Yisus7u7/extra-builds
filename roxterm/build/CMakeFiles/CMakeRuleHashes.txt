@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+010eb219d0cc9fef3ed161f386559cce CMakeFiles/dist
+010eb219d0cc9fef3ed161f386559cce CMakeFiles/manpages
+ef8727cf8c82d0c59d668b105a28670e roxterm-3.11.1.2~ga08dfb9.tar.xz
+dfb88f70c01f265e28f639a2446952e3 roxterm-config.1
+54f37fd639a9b33665bad7771b8acb7c roxterm.1
+14db17e853e83ded7e2f4fa3362084e0 src/gresources.c

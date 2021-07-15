@@ -1,0 +1,130 @@
+The system is: Android - 3.18.71-perf-gb847930 - armv7l
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /data/data/com.termux/files/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/3.20.5/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/data/data/com.termux/files/usr/bin/make -f Makefile cmTC_f38bf/fast && /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_f38bf.dir/build.make CMakeFiles/cmTC_f38bf.dir/build
+make[1]: Entering directory '/data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o
+/data/data/com.termux/files/usr/bin/cc   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o -c /data/data/com.termux/files/usr/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang version 12.0.0
+Target: armv7a-unknown-linux-android24
+Thread model: posix
+InstalledDir: /data/data/com.termux/files/usr/bin
+ (in-process)
+ "/data/data/com.termux/files/usr/bin/clang-12" -cc1 -triple armv7-unknown-linux-android24 -emit-obj --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -resource-dir /data/data/com.termux/files/usr/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/local/include -internal-isystem /data/data/com.termux/files/usr/lib/clang/12.0.0/include -internal-externc-isystem /data/data/com.termux/files/usr/include/arm-linux-androideabi -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdebug-compilation-dir /data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.0 based upon LLVM 12.0.0 default target armv7a-unknown-linux-androideabi24
+ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"
+ignoring nonexistent directory "/data/data/com.termux/files/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /data/data/com.termux/files/usr/lib/clang/12.0.0/include
+ /data/data/com.termux/files/usr/include/arm-linux-androideabi
+ /data/data/com.termux/files/usr/include
+End of search list.
+Linking C executable cmTC_f38bf
+/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f38bf.dir/link.txt --verbose=1
+/data/data/com.termux/files/usr/bin/cc -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o -o cmTC_f38bf 
+clang version 12.0.0
+Target: armv7a-unknown-linux-android24
+Thread model: posix
+InstalledDir: /data/data/com.termux/files/usr/bin
+ "/data/data/com.termux/files/usr/bin/ld" --sysroot=/data/data/com.termux/files -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --enable-new-dtags -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_f38bf /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /data/data/com.termux/files/usr/lib/crtend_android.o
+make[1]: Leaving directory '/data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/data/data/com.termux/files/usr/lib/clang/12.0.0/include]
+    add: [/data/data/com.termux/files/usr/include/arm-linux-androideabi]
+    add: [/data/data/com.termux/files/usr/include]
+  end of search list found
+  collapse include dir [/data/data/com.termux/files/usr/lib/clang/12.0.0/include] ==> [/data/data/com.termux/files/usr/lib/clang/12.0.0/include]
+  collapse include dir [/data/data/com.termux/files/usr/include/arm-linux-androideabi] ==> [/data/data/com.termux/files/usr/include/arm-linux-androideabi]
+  collapse include dir [/data/data/com.termux/files/usr/include] ==> [/data/data/com.termux/files/usr/include]
+  implicit include dirs: [/data/data/com.termux/files/usr/lib/clang/12.0.0/include;/data/data/com.termux/files/usr/include/arm-linux-androideabi;/data/data/com.termux/files/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/data/data/com.termux/files/usr/bin/make -f Makefile cmTC_f38bf/fast && /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_f38bf.dir/build.make CMakeFiles/cmTC_f38bf.dir/build]
+  ignore line: [make[1]: Entering directory '/data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/data/data/com.termux/files/usr/bin/cc   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o -c /data/data/com.termux/files/usr/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 12.0.0]
+  ignore line: [Target: armv7a-unknown-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/data/data/com.termux/files/usr/bin/clang-12" -cc1 -triple armv7-unknown-linux-android24 -emit-obj --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -resource-dir /data/data/com.termux/files/usr/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/local/include -internal-isystem /data/data/com.termux/files/usr/lib/clang/12.0.0/include -internal-externc-isystem /data/data/com.termux/files/usr/include/arm-linux-androideabi -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdebug-compilation-dir /data/data/com.termux/files/home/extra/roxterm/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 12.0.0 based upon LLVM 12.0.0 default target armv7a-unknown-linux-androideabi24]
+  ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /data/data/com.termux/files/usr/lib/clang/12.0.0/include]
+  ignore line: [ /data/data/com.termux/files/usr/include/arm-linux-androideabi]
+  ignore line: [ /data/data/com.termux/files/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_f38bf]
+  ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f38bf.dir/link.txt --verbose=1]
+  ignore line: [/data/data/com.termux/files/usr/bin/cc -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o -o cmTC_f38bf ]
+  ignore line: [clang version 12.0.0]
+  ignore line: [Target: armv7a-unknown-linux-android24]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+  link line: [ "/data/data/com.termux/files/usr/bin/ld" --sysroot=/data/data/com.termux/files -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --enable-new-dtags -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_f38bf /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /data/data/com.termux/files/usr/lib/crtend_android.o]
+    arg [/data/data/com.termux/files/usr/bin/ld] ==> ignore
+    arg [--sysroot=/data/data/com.termux/files] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-rpath=/data/data/com.termux/files/usr/lib] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f38bf] ==> ignore
+    arg [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o] ==> obj [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o]
+    arg [-L/data/data/com.termux/files/usr/lib] ==> dir [/data/data/com.termux/files/usr/lib]
+    arg [-L/system/lib] ==> dir [/system/lib]
+    arg [CMakeFiles/cmTC_f38bf.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/data/data/com.termux/files/usr/lib/crtend_android.o] ==> obj [/data/data/com.termux/files/usr/lib/crtend_android.o]
+  collapse library dir [/data/data/com.termux/files/usr/lib] ==> [/data/data/com.termux/files/usr/lib]
+  collapse library dir [/system/lib] ==> [/system/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit objs: [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o;/data/data/com.termux/files/usr/lib/crtend_android.o]
+  implicit dirs: [/data/data/com.termux/files/usr/lib;/system/lib]
+  implicit fwks: []
+
+

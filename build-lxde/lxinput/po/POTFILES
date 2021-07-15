@@ -1,0 +1,3 @@
+	../src/lxinput.c \
+	../data/lxinput.ui \
+	../data/lxinput.desktop.in

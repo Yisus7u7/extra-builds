@@ -1,0 +1,5 @@
+	../data/lxappearance.desktop.in \
+	../data/ui/about.glade.in \
+	../data/ui/lxappearance.glade \
+	../src/utils.c \
+	../src/color-scheme.c

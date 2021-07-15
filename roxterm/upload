@@ -1,0 +1,16 @@
+#!/bin/sh
+
+f=$1
+if [ ! -f $f ] ; then
+    echo "File not found or given" >&2
+    exit 1
+fi
+d=`basename $f | sed 's/roxterm-//;s/.tar.xz//'`
+mkdir $d
+cp $f $d
+f=$f.sign
+[ -f $f ] && cp $f $d
+
+rsync -avP -e ssh $d realh,roxterm@frs.sourceforge.net:/home/frs/project/r/ro/roxterm/roxterm/
+
+rm -rf $d
